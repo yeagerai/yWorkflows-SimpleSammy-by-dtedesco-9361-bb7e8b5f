@@ -1,0 +1,8 @@
+description: A Yeager Component that fetches a list of positive or neutral adjectives
+  from an external API or a predefined dataset. The fetched adjectives are returned
+  and stored in the 'adjective_list' output field. The component ensures that every
+  letter of the alphabet is represented by at least 4 adjectives in the list.
+name: FetchAdjectives
+parameters:
+  alphabet: abcdefghijklmnopqrstuvwxyz
+  min_adjectives_per_letter: 4
